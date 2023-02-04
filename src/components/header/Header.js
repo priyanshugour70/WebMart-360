@@ -4,27 +4,11 @@ import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import SearchIcon from "@mui/icons-material/Search";
 import { logo } from "../../assets/index";
+import {allItems} from '../../constants/Index'
 
 function Header() {
     const [showAll, setShowAll] = useState(false);
 
-    const allItems = [
-        { _id: 112, title: "Health & Household" },
-        { _id: 113, title: "Home & Kitchen" },
-        { _id: 114, title: "Industrial & Scientific" },
-        { _id: 115, title: "Kindle Store" },
-        { _id: 116, title: "Luggage" },
-        { _id: 117, title: "Men's Fashion" },
-        { _id: 118, title: "Music, CDs & Vinyl" },
-        { _id: 119, title: "Pet Supplies" },
-        { _id: 120, title: "Prime Video" },
-        { _id: 121, title: "Software" },
-        { _id: 122, title: "Sports & Outdoors" },
-        { _id: 123, title: "Tools & Home Improvement" },
-        { _id: 124, title: "Toys & Games" },
-        { _id: 126, title: "Video Games" },
-        { _id: 127, title: "Women's Fashion" },
-    ];
 
     return (
         <div>
@@ -73,6 +57,21 @@ function Header() {
                     <span className="w-12 h-full flex items-center justify-center bg-amazon_yellow hover:bg-[#f3a847] duration-300 text-amazon_blue cursor-pointer rounded-tr-md rounded-br-md">
                         <SearchIcon />
                     </span>
+                </div>
+                <div className="flex flex-col items-start justify-center headerHover">
+                    <p className="text-xs text-lightText font-light">Hello, sign in</p>
+                    <p className="text-sm font-semibold -mt-1 text-whiteText">Accounts & Lists <span><ArrowDropDownOutlinedIcon /></span></p>
+                </div>
+                <div className="flex flex-col items-start justify-center headerHover">
+                    <p className="text-xs text-lightText font-light">Returns</p>
+                    <p className="text-sm font-semibold -mt-1 text-whiteText">& Orders</p>
+                </div>
+                <div className="flex items-start justify-center headerHover relative">
+                    <ShoppingCartIcon />
+                    <p className="text-xs font-semibold mt-3 text-whiteText">
+                        Cart 
+                        <span className="absolute text-xs -top-1 left-6 font-semibold p-1 h-4 bg-[#f3a847] text-amazon_blue rounded-full flex justify-center items-center">0</span>
+                    </p>
                 </div>
             </div>
         </div>
