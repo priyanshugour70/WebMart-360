@@ -89,4 +89,77 @@ export const middleList = [
             },
         ],
     },
-]
+];
+
+export const footerBottomItem = [
+    {
+        _id: 1001,
+        title: "Amazon Music",
+        des: "Songs",
+    },
+    {
+        _id: 1002,
+        title: "Amazon Advertising",
+        des: "Find, attract, and engage customers",
+    },
+    {
+        _id: 1003,
+        title: "Amazon Drive",
+        des: "Cloud storage from Amazon",
+    },
+    {
+        _id: 1004,
+        title: "6pm",
+        des: "Score deals on fashion brands",
+    },
+    {
+        _id: 1005,
+        title: "AbeBooks",
+        des: "books, art & collectibles",
+    },
+    {
+        _id: 1006,
+        title: "ACX",
+        des: "Audiobook Publishing Made Easy",
+    },
+    {
+        _id: 1007,
+        title: "Sell on Amazon",
+        des: "Start a Selling Account",
+    },
+    {
+        _id: 1008,
+        title: "Amazon Business",
+        des: "Everything For Your Business",
+    },
+    {
+        _id: 1009,
+        title: "Amazon Global",
+        des: "Shop Orders Internationally",
+    },
+    {
+        _id: 1010,
+        title: "Home Services",
+        des: "Experienced Pros appiness Guarantee",
+    },
+    {
+        _id: 1011,
+        title: "Amazon lgnite",
+        des: "Sell your original Digital Educational Resources",
+    },
+    {
+        _id: 1012,
+        title: "Amazon Web Services",
+        des: "Scalable Cloud Computing Services",
+    },
+    {
+        _id: 1013,
+        title: "Audible",
+        des: "Listen to Books & Original Audio Performances",
+    },
+    {
+        _id: 1014,
+        title: "Book Depository",
+        des: "Books With Free Delivery Worldwide",
+    },
+];
