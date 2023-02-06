@@ -6,11 +6,13 @@ import bannerImgFour from "./banner/bannerImgFour.jpg";
 import bannerImgFive from "./banner/bannerImgFive.jpg";
 import bdFlag from "./bdFlag.webp";
 import iphone from "./iphone.png"
+import emptyCart from './emptyCart.png'
 
 export {
   iphone,
   logo,
   bannerImgOne,
+  emptyCart,
   bannerImgTwo,
   bannerImgThree,
   bannerImgFour,
