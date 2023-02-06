@@ -9,6 +9,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home';
+import Signin from './pages/Signin';
+import { AppRegistration } from '@mui/icons-material';
 
 
 const Layout =()=>{
@@ -25,9 +27,12 @@ function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-
+    <Route>
     <Route path='/' element={<Layout />}>
     <Route index element={<Home />}></Route>
+    </Route>
+    <Route path='/signin' element={<Signin />}></Route>
+    <Route path='/registration' element={<AppRegistration />}></Route>
     </Route>
   ))
 
