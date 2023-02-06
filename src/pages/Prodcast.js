@@ -1,10 +1,11 @@
 import React from 'react'
 import { emptyCart } from '../assets/index'
+import { motion } from 'framer-motion'
 
 function Prodcast() {
   return (
     <div className="w-full bg-gray-100">
-        <div className='flex justify-center items-center gap-4 py-10'>
+        <motion.div initial={{y: 70, opacity: 0}} animate={{y:0, opacity: 1}} transition={{delay: 0.5, duration: 0.5}} className='flex justify-center items-center gap-4 py-10'>
         <div>
             <img className='w-80 rounded-lg p-4 mx-auto' src={ emptyCart } alt="Img" />
         </div>
@@ -13,7 +14,7 @@ function Prodcast() {
             <p className='text-sm text-center'> Your Shopping cart lives to serve. Give it purpose - fill it with books, electronics, videos, etc. and make it happy.</p>
             <button className='mt-6 bg-yellow-400 rounded-md cursor-pointer hover:bg-yellow-500 active:bg-yellow-700 px-8 py-2 font-titleFont font-semibold text-lg'>Continue Shopping</button>
         </div>
-        </div>
+        </motion.div>
     </div>
   )
 }
