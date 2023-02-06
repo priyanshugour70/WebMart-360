@@ -5,8 +5,10 @@ import bannerImgThree from "./banner/bannerImgThree.jpg";
 import bannerImgFour from "./banner/bannerImgFour.jpg";
 import bannerImgFive from "./banner/bannerImgFive.jpg";
 import bdFlag from "./bdFlag.webp";
+import iphone from "./iphone.png"
 
 export {
+  iphone,
   logo,
   bannerImgOne,
   bannerImgTwo,
