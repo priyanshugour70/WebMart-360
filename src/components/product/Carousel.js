@@ -21,10 +21,10 @@ function Carousel({title}) {
                 <div id="content" className="carousel p-4 flex items-center justify-start overflow-x-auto scroll-smooth  scrollbar-hide">
                     
                     <div className="absolute right-0 mid">
-                        <button onClick={scrollRight} className="p-2 m-2 rounded-full bg-slate-500"><FiChevronRight /></button>
+                        <button onClick={scrollRight} className="bg-yellow-400 cursor-pointer hover:bg-yellow-500 active:bg-yellow-700 p-2 m-2 rounded-full "><FiChevronRight /></button>
                     </div>
                     <div className="absolute left-0 mid">
-                        <button onClick={scrollLeft} className="p-2 m-2 rounded-full bg-slate-500"><FiChevronLeft /></button>
+                        <button onClick={scrollLeft} className="bg-yellow-400 cursor-pointer hover:bg-yellow-500 active:bg-yellow-700 p-2 m-2 rounded-full "><FiChevronLeft /></button>
                     </div>
                     
                     <div>

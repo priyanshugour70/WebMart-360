@@ -26,10 +26,10 @@ function Card({Product_Img,title,category,org_price,dup_price}) {
             </div>
           </div>
           <div className="flex items-center my-2">
-            <button className="border px-3 py-1 text-xs rounded-lg mr-1 ">
+            <button className="bg-yellow-400 cursor-pointer hover:bg-yellow-500 active:bg-yellow-700 border px-3 py-1 text-xs rounded-lg mr-1 ">
               Buy Now
             </button>
-            <button className="border px-3 py-1 text-xs rounded-lg ">
+            <button className="bg-yellow-400 cursor-pointer hover:bg-yellow-500 active:bg-yellow-700 border px-3 py-1 text-xs rounded-lg ">
               Add to Cart
             </button>
           </div>
