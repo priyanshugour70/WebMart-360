@@ -6,6 +6,7 @@ import bannerImgFour from "./banner/bannerImgFour.jpg";
 import bannerImgFive from "./banner/bannerImgFive.jpg";
 import bdFlag from "./bdFlag.webp";
 import iphone from "./iphone.png"
+import darklogo from "./darklogo.png"
 import emptyCart from './emptyCart.png'
 
 export {
@@ -18,4 +19,5 @@ export {
   bannerImgFour,
   bannerImgFive,
   bdFlag,
+  darklogo,
 };
