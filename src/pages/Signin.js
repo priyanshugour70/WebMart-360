@@ -20,7 +20,7 @@ function Signin() {
                             <p className='text-sm font-medium'>Password</p>
                             <input className='w-full lowercase py-1 border border-zinc-400 px-2 text-base rounded-sm outline-none focus-within:border-[#e77600] focus-within:shadow-amazonInput duration-100' type="password" />
                         </div>
-                        <button onClick={(e)=>e.preventDefault()} className='w-full py-1.5 text-sm font-normal rounded-sm bg-gradient-to-t from-[#f7dfa5] to-[#f0c14b] hover:bg-gradient-to-b border border-zinc-400 active:border-yellow-800 active:shadow-amazonInput'>
+                        <button onClick={(e)=>e.preventDefault()} className='text-center w-full py-1.5 text-sm font-normal rounded-sm bg-gradient-to-t from-[#f7dfa5] to-[#f0c14b] hover:bg-gradient-to-b border border-zinc-400 active:border-yellow-800 active:shadow-amazonInput'>
                             Continue
                         </button>
                     </div>
@@ -35,10 +35,10 @@ function Signin() {
                 </div>
                     <p className='w-full text-xs text-gray-600 mt-6 mb-6 flex items-center'>
                     <span className='w-1/3 h-[1px] bg-zinc-400 inline-flex'></span>
-                    <span className='w-1/3'>New to Amazon?</span>
+                    <span className='text-center w-1/3'>New to Amazon?</span>
                     <span className='w-1/3 h-[1px] bg-zinc-400 inline-flex'></span>
                     </p>
-                <NavLink to="/Registration" onClick={(e)=>e.preventDefault()} className='w-full py-1.5 text-sm font-normal rounded-sm bg-gradient-to-t from-slate-200 to-slate-100 hover:bg-gradient-to-b border border-zinc-400 active:border-yellow-800 active:shadow-amazonInput'>Create your Amazon account</NavLink>
+                <NavLink to="../Registration" onClick={(e)=>e.preventDefault()} className='text-center w-full py-1.5 text-sm font-normal rounded-sm bg-gradient-to-t from-slate-200 to-slate-100 hover:bg-gradient-to-b border border-zinc-400 active:border-yellow-800 active:shadow-amazonInput'>Create your Amazon account</NavLink>
             </form>
         </div>
         <div className='w-full bg-gradient-to-t from-white via-white to-zinc-200 flex flex-col gap-4 justify-center items-center py-10'>
@@ -58,5 +58,4 @@ function Signin() {
     </div>
   )
 }
-
 export default Signin

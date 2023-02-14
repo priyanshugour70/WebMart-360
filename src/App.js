@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Signin from './pages/Signin';
-import { AppRegistration } from '@mui/icons-material';
+import Registration from './pages/Registration';
 
 
 const Layout =()=>{
@@ -32,7 +32,7 @@ function App() {
     <Route index element={<Home />}></Route>
     </Route>
     <Route path='/signin' element={<Signin />}></Route>
-    <Route path='/registration' element={<AppRegistration />}></Route>
+    <Route path='/registration' element={<Registration />}></Route>
     </Route>
   ))
 
