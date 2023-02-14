@@ -32,7 +32,7 @@ function App() {
     <Route index element={<Home />}></Route>
     </Route>
     <Route path='/signin' element={<Signin />}></Route>
-    <Route path='/registration' element={<Registration />}></Route>
+    <Route path='/Registration' element={<Registration />}></Route>
     </Route>
   ))
 

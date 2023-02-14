@@ -1,6 +1,6 @@
 import React from 'react'
 import { darklogo } from '../assets/index'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight'
 
 function Signin() {
@@ -38,7 +38,9 @@ function Signin() {
                     <span className='text-center w-1/3'>New to Amazon?</span>
                     <span className='w-1/3 h-[1px] bg-zinc-400 inline-flex'></span>
                     </p>
-                <NavLink to="../Registration" onClick={(e)=>e.preventDefault()} className='text-center w-full py-1.5 text-sm font-normal rounded-sm bg-gradient-to-t from-slate-200 to-slate-100 hover:bg-gradient-to-b border border-zinc-400 active:border-yellow-800 active:shadow-amazonInput'>Create your Amazon account</NavLink>
+                    <Link className='w-full' to="/Registration">
+                        <button  className='text-center w-full py-1.5 text-sm font-normal rounded-sm bg-gradient-to-t from-slate-200 to-slate-100 hover:bg-gradient-to-b border border-zinc-400 active:border-yellow-800 active:shadow-amazonInput'>Create your Amazon account</button>
+                    </Link>
             </form>
         </div>
         <div className='w-full bg-gradient-to-t from-white via-white to-zinc-200 flex flex-col gap-4 justify-center items-center py-10'>
