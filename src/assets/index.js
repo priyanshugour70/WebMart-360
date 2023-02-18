@@ -5,12 +5,11 @@ import bannerImgThree from "./banner/bannerImgThree.jpg";
 import bannerImgFour from "./banner/bannerImgFour.jpg";
 import bannerImgFive from "./banner/bannerImgFive.jpg";
 import bdFlag from "./bdFlag.webp";
-import iphone from "./iphone.png"
 import darklogo from "./darklogo.png"
 import emptyCart from './emptyCart.png'
+import iphone from "./mobiles/iphone.png"
 
 export {
-  iphone,
   logo,
   bannerImgOne,
   emptyCart,
@@ -20,4 +19,5 @@ export {
   bannerImgFive,
   bdFlag,
   darklogo,
+  iphone,
 };
