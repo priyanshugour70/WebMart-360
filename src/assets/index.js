@@ -8,6 +8,7 @@ import bdFlag from "./bdFlag.webp";
 import darklogo from "./darklogo.png"
 import emptyCart from './emptyCart.png'
 import iphone from "./mobiles/iphone.png"
+import samsung_s23 from "./mobiles/samsung_s23.png"
 
 export {
   logo,
@@ -20,4 +21,5 @@ export {
   bdFlag,
   darklogo,
   iphone,
+  samsung_s23,
 };
