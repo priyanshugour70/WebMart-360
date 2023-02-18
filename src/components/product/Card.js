@@ -2,10 +2,10 @@ import React from "react";
 
 function Card({Product_Img,title,category,org_price,dup_price}) {
     return (
-        <div className="card bg-white w-[200px] h-[350px] m-2 rounded-lg shadow-lg">
+        <div className="card bg-white w-[200px] h-[360px] m-2 rounded-lg shadow-lg">
         <div className="top">
           <img
-            className="w-[180px] h-[200px] object-cover  p-2"
+            className="w-[160px] h-[200px] object-cover  p-2"
             src={Product_Img}
             alt="img"
           />
