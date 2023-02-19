@@ -61,7 +61,7 @@ function Carousel({title}) {
                         <Card Product_Img={RedmiNote12} title={"Redmi Note 12 Pro 5G (Stardust Purple, 8GB RAM, 256GB Storage)"} category={"16.94 cm (6.67 inch) Full HD"} org_price={36999} dup_price={56999}/>
                     </div>
                     <div>
-                        <Card Product_Img={realmeGT2} title={"realme GT 2 Pro (Paper Green 8GB RAM+128GB Storage)"} category={"Qualcomm Snapdragon 8 Gen"} org_price={49959} dup_price={57999}/>
+                        <Card Product_Img={realmeGT2} title={"realme GT 2 Pro (Paper Green 8GB RAM+128GB Storage)"} category={"Qualcomm Snapdragon 8"} org_price={49959} dup_price={57999}/>
                     </div>
                     <div>
                         <Card Product_Img={iphone} title={"Apple iPhone 13 (128GB) - Midnight"} category={"5.4 cm (6.1-inch) display1"} org_price={130000} dup_price={149000}/>
