@@ -34,13 +34,13 @@ function Carousel({title}) {
                         <Card Product_Img={samsung_s23} title={"Samsung Galaxy S23 Ultra 5G (512GB) - Snapdragon 8 Gen 2"} category={"6.8 inches (17.27 cm)-120 Hz "} org_price={124000} dup_price={179000}/>
                     </div>
                     <div>
-                        <Card Product_Img={GooglePixel} title={"Google Pixel 6 5G (Sorta Seafoam, 8GB RAM, 128GB Storage)"} category={"5.8 cm (6.13 inches)"} org_price={99999} dup_price={42490}/>
+                        <Card Product_Img={GooglePixel} title={"Google Pixel 6 5G (Sorta Seafoam, 8GB RAM, 128GB Storage)"} category={"5.8 cm (6.13 inches)"} org_price={42490} dup_price={99999}/>
                     </div>
                     <div>
-                        <Card Product_Img={oneplus11} title={"OnePlus 11 5G (Titan Black, 16GB RAM, 256GB Storage)"} category={"6.7 Inches; 120 Hz AMOLED QHD Display "} org_price={81999} dup_price={61999}/>
+                        <Card Product_Img={oneplus11} title={"OnePlus 11 5G (Titan Black, 16GB RAM, 256GB Storage)"} category={"6.7 Inches; 120 Hz AMOLED QHD Display "} org_price={61999} dup_price={81999}/>
                     </div>
                     <div>
-                        <Card Product_Img={iQOO11} title={"iQOO 11 5G (Legend, 16GB RAM, 256 GB Storage)"} category={"2K AMOLED display has 77.8% more pixels"} org_price={66999} dup_price={64999}/>
+                        <Card Product_Img={iQOO11} title={"iQOO 11 5G (Legend, 16GB RAM, 256 GB Storage)"} category={"2K AMOLED display has 77.8% more pixels"} org_price={64999} dup_price={66999}/>
                     </div>
                     <div>
                         <Card Product_Img={iphone} title={"Apple iPhone 13 (128GB) - Midnight"} category={"5.4 cm (6.1-inch) display1"} org_price={130000} dup_price={149000}/>
