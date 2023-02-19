@@ -7,6 +7,8 @@ import bannerImgFive from "./banner/bannerImgFive.jpg";
 import bdFlag from "./bdFlag.webp";
 import darklogo from "./darklogo.png"
 import emptyCart from './emptyCart.png'
+
+// Mobile's
 import iphone from "./mobiles/iphone.png"
 import samsung_s23 from "./mobiles/samsung_s23.png"
 import GooglePixel from "./mobiles/GooglePixel.png"
@@ -22,6 +24,8 @@ import realmeGT2 from "./mobiles/realmeGT2.png"
 import AsusRog5  from "./mobiles/AsusRog5.png"
 import NothingPhone from "./mobiles/NothingPhone.png"
 
+// Collection's
+
 export {
   logo,
   bannerImgOne,
@@ -32,6 +36,8 @@ export {
   bannerImgFive,
   bdFlag,
   darklogo,
+
+  // Mobile's
   iphone,
   samsung_s23,
   GooglePixel,
@@ -46,4 +52,7 @@ export {
   realmeGT2,
   AsusRog5,
   NothingPhone,
+
+  // Collection's
+  
 };

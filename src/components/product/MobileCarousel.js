@@ -18,7 +18,7 @@ import {
     NothingPhone,
 } from "../../assets/index";
 
-function Carousel({ title }) {
+function MobileCarousel({ title }) {
     const scrollLeft = () => {
         document.getElementById("content").scrollLeft -= 400;
     };
@@ -216,4 +216,4 @@ function Carousel({ title }) {
     );
 }
 
-export default Carousel;
+export default MobileCarousel;
