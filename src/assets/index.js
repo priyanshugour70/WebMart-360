@@ -13,6 +13,7 @@ import GooglePixel from "./mobiles/GooglePixel.png"
 import oneplus11 from "./mobiles/oneplus11.png"
 import iQOO11 from "./mobiles/iQOO11.png"
 import Xiaomi12 from "./mobiles/Xiaomi12.png"
+import OppoReno8 from "./mobiles/OppoReno8.png"
 
 export {
   logo,
@@ -30,4 +31,5 @@ export {
   oneplus11,
   iQOO11,
   Xiaomi12,
+  OppoReno8,
 };
