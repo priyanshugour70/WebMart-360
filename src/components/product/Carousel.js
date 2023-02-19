@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
-import { iphone, samsung_s23, GooglePixel, oneplus11, iQOO11, Xiaomi12, OppoReno8, VivoX80, SonyXperia1 } from "../../assets/index";
+import { iphone, samsung_s23, GooglePixel, oneplus11, iQOO11, Xiaomi12, OppoReno8, VivoX80, SonyXperia1, SonyXperia5 } from "../../assets/index";
 
 function Carousel({title}) {
     const scrollLeft = () => {
@@ -55,7 +55,7 @@ function Carousel({title}) {
                         <Card Product_Img={SonyXperia1} title={"Sony Xperia 1 III XQ-BC72 5G (Frosted Gray, 12GB RAM, 256GB Storage)"} category={"Color: Frosted Gray"} org_price={81999} dup_price={121999}/>
                     </div>
                     <div>
-                        <Card Product_Img={iphone} title={"Apple iPhone 13 (128GB) - Midnight"} category={"5.4 cm (6.1-inch) display1"} org_price={130000} dup_price={149000}/>
+                        <Card Product_Img={SonyXperia5} title={"Sony Xperia 5 iv XQ-CT72 5G Dual Sim (Black, 8GB Ram 256GB Storage)"} category={"12 MP + 12 MP + 12 MP"} org_price={85999} dup_price={119999}/>
                     </div>
                     <div>
                         <Card Product_Img={iphone} title={"Apple iPhone 13 (128GB) - Midnight"} category={"5.4 cm (6.1-inch) display1"} org_price={130000} dup_price={149000}/>
