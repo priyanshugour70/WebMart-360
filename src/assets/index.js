@@ -12,6 +12,7 @@ import samsung_s23 from "./mobiles/samsung_s23.png"
 import GooglePixel from "./mobiles/GooglePixel.png"
 import oneplus11 from "./mobiles/oneplus11.png"
 import iQOO11 from "./mobiles/iQOO11.png"
+import Xiaomi12 from "./mobiles/Xiaomi12.png"
 
 export {
   logo,
@@ -28,4 +29,5 @@ export {
   GooglePixel,
   oneplus11,
   iQOO11,
+  Xiaomi12,
 };
