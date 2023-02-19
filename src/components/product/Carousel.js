@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
-import { iphone, samsung_s23, GooglePixel } from "../../assets/index";
+import { iphone, samsung_s23, GooglePixel, oneplus11 } from "../../assets/index";
 
 function Carousel({title}) {
     const scrollLeft = () => {
@@ -37,7 +37,7 @@ function Carousel({title}) {
                         <Card Product_Img={GooglePixel} title={"Google Pixel 6 5G (Sorta Seafoam, 8GB RAM, 128GB Storage)"} category={"5.8 cm (6.13 inches)"} org_price={99999} dup_price={42490}/>
                     </div>
                     <div>
-                        <Card Product_Img={iphone} title={"Apple iPhone 13 (128GB) - Midnight"} category={"5.4 cm (6.1-inch) display1"} org_price={130000} dup_price={149000}/>
+                        <Card Product_Img={oneplus11} title={"OnePlus 11 5G (Titan Black, 16GB RAM, 256GB Storage)"} category={"6.7 Inches; 120 Hz AMOLED QHD Display "} org_price={81999} dup_price={61999}/>
                     </div>
                     <div>
                         <Card Product_Img={iphone} title={"Apple iPhone 13 (128GB) - Midnight"} category={"5.4 cm (6.1-inch) display1"} org_price={130000} dup_price={149000}/>
