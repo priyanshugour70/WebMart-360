@@ -10,6 +10,7 @@ import emptyCart from './emptyCart.png'
 import iphone from "./mobiles/iphone.png"
 import samsung_s23 from "./mobiles/samsung_s23.png"
 import GooglePixel from "./mobiles/GooglePixel.png"
+import oneplus11 from "./mobiles/oneplus11.png"
 
 export {
   logo,
@@ -24,4 +25,5 @@ export {
   iphone,
   samsung_s23,
   GooglePixel,
+  oneplus11,
 };
