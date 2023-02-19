@@ -17,6 +17,7 @@ import OppoReno8 from "./mobiles/OppoReno8.png"
 import VivoX80 from "./mobiles/VivoX80.png"
 import SonyXperia1 from "./mobiles/SonyXperia1.png"
 import SonyXperia5 from "./mobiles/SonyXperia5.png"
+import RedmiNote12 from "./mobiles/RedmiNote12.png"
 
 export {
   logo,
@@ -38,4 +39,5 @@ export {
   VivoX80,
   SonyXperia1,
   SonyXperia5,
+  RedmiNote12,
 };
