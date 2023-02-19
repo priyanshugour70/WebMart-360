@@ -20,6 +20,7 @@ import SonyXperia5 from "./mobiles/SonyXperia5.png"
 import RedmiNote12 from "./mobiles/RedmiNote12.png"
 import realmeGT2 from "./mobiles/realmeGT2.png"
 import AsusRog5  from "./mobiles/AsusRog5.png"
+import NothingPhone from "./mobiles/NothingPhone.png"
 
 export {
   logo,
@@ -44,4 +45,5 @@ export {
   RedmiNote12,
   realmeGT2,
   AsusRog5,
+  NothingPhone,
 };
