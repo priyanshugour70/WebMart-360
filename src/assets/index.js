@@ -11,6 +11,7 @@ import iphone from "./mobiles/iphone.png"
 import samsung_s23 from "./mobiles/samsung_s23.png"
 import GooglePixel from "./mobiles/GooglePixel.png"
 import oneplus11 from "./mobiles/oneplus11.png"
+import iQOO11 from "./mobiles/iQOO11.png"
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   samsung_s23,
   GooglePixel,
   oneplus11,
+  iQOO11,
 };
