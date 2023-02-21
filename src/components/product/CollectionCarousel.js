@@ -20,10 +20,10 @@ import {
 
 function CollectionCarousel({ title }) {
     const scrollLeft = () => {
-        document.getElementById("content").scrollLeft -= 400;
+        document.getElementById("Collection_content").scrollLeft -= 400;
     };
     const scrollRight = () => {
-        document.getElementById("content").scrollLeft += 400;
+        document.getElementById("Collection_content").scrollLeft += 400;
     };
 
     return (
@@ -34,7 +34,7 @@ function CollectionCarousel({ title }) {
                 </div>
 
                 <div
-                    id="content"
+                    id="Collection_content"
                     className="carousel p-4 flex items-center justify-start overflow-x-auto scroll-smooth  scrollbar-hide"
                 >
                     <div className="absolute right-0 mid">
